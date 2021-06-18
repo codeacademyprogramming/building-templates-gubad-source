@@ -1,0 +1,46 @@
+#cities{
+background-color: black;
+font-family: sans-serif;
+
+}
+.city{
+    width: 250px;
+    height: 400px;
+    margin: 5px;
+}
+.city-title{
+    display: flex;
+   align-items: center;
+    flex-direction:column;
+    color: white;
+    line-height: 50px;
+}
+.city-list{
+    color: gray;
+    background-color: white;
+    display: inline-block;
+    width: 900px;
+}
+.city-list ul li{
+    height: 50px;
+}
+.city-date{
+    color: gray;
+}
+.city .city-image img{
+width: 100%;
+}
+.city .city-info{
+    padding: 15px;
+    background-color: white;
+}
+.city .city-info h1,.city .city-info p{
+    margin-bottom: 15px;
+}
+.city .city-info button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+}
