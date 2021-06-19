@@ -1,9 +1,10 @@
 #cities {
   background-color: black;
   font-family: sans-serif;
+  padding-bottom: 10%;
 }
 .city {
-  width: 250px;
+  width: 282px;
   height: 400px;
   margin: 5px;
 }
@@ -23,6 +24,8 @@
 }
 .city-list ul li {
   height: 50px;
+  list-style: none;
+  padding: 20px 30px;
 }
 .city-date {
   color: gray;
@@ -44,6 +47,10 @@
   padding: 10px;
   margin-top: 15px;
   border: none;
+}
+.container{
+  width: 60%;
+  margin:  auto;
 }
 
 * {
@@ -113,13 +120,14 @@ body {
   display: none;
 }
 
+/* portrait */
 .portrait img {
   width: 100%;
 }
 
 /* map */
 
-.map{
+.map img{
     width: 100%;
 }
 
