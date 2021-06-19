@@ -85,5 +85,10 @@
     .col-md-12{
      width:100%;
     }
-   
+   .disapear{
+      display: none;
+   }
+   .hamburger{
+      display: block;
+   }
  }

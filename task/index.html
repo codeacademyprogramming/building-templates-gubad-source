@@ -8,17 +8,21 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/media.css" />
     <link rel="stylesheet" href="./assets/css/icomoon.css" />
+    <script
+      src="https://kit.fontawesome.com/454409f9ac.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav>
       <div class="navbar">
         <ul>
           <li>Home</li>
-          <li>Band</li>
-          <li>Tour</li>
-          <li>Contact</li>
-          <li>
-            More
+          <li class="disapear">Band</li>
+          <li class="disapear">Tour</li>
+          <li class="disapear">Contact</li>
+          <li class="disapear">
+            More <i class="fas fa-caret-down" ></i>
             <ul>
               <li>Merchandise</li>
               <li>Extras</li>
@@ -33,15 +37,83 @@
             width="24"
             height="24"
             viewBox="0 0 24 24"
+            class="disapear"
           >
             <title>search</title>
             <path
+              fill="white"
+              ;
               d="M9.516 14.016q1.875 0 3.188-1.313t1.313-3.188-1.313-3.188-3.188-1.313-3.188 1.313-1.313 3.188 1.313 3.188 3.188 1.313zM15.516 14.016l4.969 4.969-1.5 1.5-4.969-4.969v-0.797l-0.281-0.281q-1.781 1.547-4.219 1.547-2.719 0-4.617-1.875t-1.898-4.594 1.898-4.617 4.617-1.898 4.594 1.898 1.875 4.617q0 0.984-0.469 2.227t-1.078 1.992l0.281 0.281h0.797z"
             ></path>
           </svg>
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
         </div>
       </div>
     </nav>
+    <div class="col-12">
+      <div class="portrait">
+        <img src="./assets/images/ny.jpg" alt="new-york" />
+      </div>
+    </div>
+    <div class="col-8">
+      <div class="row">
+        <div class="band">
+          <div class="band-title">
+            <h1>THE BAND</h1>
+            <h5>We love music</h5>
+          </div>
+          <div class="band-info">
+            <p>
+              We have created a fictional band website. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.
+            </p>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="band-portrait">
+            <div class="band-portrait-title">
+              <h3>Nicolas</h3>
+            </div>
+            <div class="band-portrait-image">
+              <img src="./assets/images/bandmember.jpg" alt="bandmember">
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+         <div class="band-portrait">
+           <div class="band-portrait-title">
+             <h3>Nicolas</h3>
+           </div>
+           <div class="band-portrait-image">
+             <img src="./assets/images/bandmember.jpg" alt="bandmember">
+           </div>
+         </div>
+       </div>
+       <div class="col-2">
+         <div class="band-portrait">
+           <div class="band-portrait-title">
+             <h3>Nicolas</h3>
+           </div>
+           <div class="band-portrait-image">
+             <img src="./assets/images/bandmember.jpg" alt="bandmember">
+           </div>
+         </div>
+       </div>
+      </div>
+ 
+    </div>
+
     <section id="cities">
       <div class="container">
         <div class="row">
@@ -62,6 +134,7 @@
               </ul>
             </div>
           </div>
+
           <div class="col-4 col-md-12">
             <div class="city">
               <div class="city-image">
@@ -104,5 +177,32 @@
         </div>
       </div>
     </section>
+
+    <div class="col-12">
+      <div class="map">
+        <img src="./assets/images/map.jpg" alt="map" />
+      </div>
+    </div>
+
+    <div class="col-12">
+      <footer>
+        <div id="footer">
+          <div class="social">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-snapchat"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <h4>
+              Powered by
+              <a href="https://www.w3schools.com/" style="color: gray"
+                >w3.css</a
+              >
+            </h4>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
