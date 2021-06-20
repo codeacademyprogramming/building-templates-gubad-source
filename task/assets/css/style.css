@@ -141,3 +141,44 @@ body {
 .social h4 {
   text-align: center;
 }
+
+
+
+.contact-title{
+  display: flex;
+ align-items: center;
+  flex-direction: column;
+  line-height: 50px;
+}
+.contact-title h1{
+  letter-spacing: 10px;
+  font-size: xx-large;
+}
+.contact-title h5{
+color: gray;
+}
+.contact-info .map,.contact-info .phone,.contact-info .envelop{
+  display: flex;
+  margin-top: 15px;
+}
+.contact-info h1{
+  margin: 5px;
+}
+.contact-info h2{
+  font-size: 20px;
+}
+
+.xx-contact{
+  display: flex;
+}
+.xx-contact input{
+ height: 50px;
+ padding: 20px;
+}
+.x-contact{
+  display: flex;
+}
+.contact-message{
+  display: flex;
+  flex-direction: column;
+}
