@@ -170,6 +170,7 @@ color: gray;
 
 .xx-contact{
   display: flex;
+ 
 }
 .xx-contact input{
  height: 50px;
@@ -178,6 +179,7 @@ color: gray;
 .x-contact{
   display: flex;
 }
+
 .contact-message{
   display: flex;
   flex-direction: column;

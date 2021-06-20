@@ -91,4 +91,21 @@
    .hamburger{
       display: block;
    }
+   .xx-contact{
+      display: flex;
+     flex-direction: column;
+    }
+    .x-contact{
+      display: flex;
+      flex-direction: column;
+    }
+    .city-list {
+       width: 100%;
+    }
+    .city{
+       margin-bottom: 50px;
+    }
+  .x-contact .contact-email input{
+     width: 100%;
+  }
  }
